@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.form {
+    width: 100%;
+    display: block;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcd9e;
+    height: 70vh;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 0px 0px 136px;
+}
+
+h1 {
+    display: block;
+    width: 565px;
+    color: #282828;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #484848;
+    width: 500px;
+    margin-bottom: 40px;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+h3 {
+    color: #282828;
+    width: 227px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.lables {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    color: black;
+    width: 344px;
+    padding: 12px 0px 12px 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+button {
+    width: 220px;
+    border: 3px solid black;
+    color: white;
+    background-color: black;
+    padding: 10px 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: whitesmoke;
+    font-size: 700;
+}
+
+p1 {
+    text-align: center;
+    color: white;
+    width: 344px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.right {
+    width: 50%;
+    display: inline-flex;
+    margin: 20px 30px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+
+.footerleft {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.footerright {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 30px;
+}
+
+li>span {
+    cursor: pointer;
+}
+
+.down {
+    margin-bottom: 8px;
+}
